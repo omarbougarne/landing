@@ -10,6 +10,33 @@ Author URL: http://w3layouts.com
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ nav{
+  background-color: orangered;
+  width: 100%;
+ }
+ .form{
+  display: flex;
+  justify-content: space-between;
+ }
+ .ndform{
+  background: orangered;
+  color: black;
+ }
+ .button{
+  background: orangered;
+  color: white;
+ }
+ .ourmenu{
+  text-align: center;
+  color: orangered;
+ }
+ .map{
+  width: 500px;
+  margin-left: 30%;
+ }
+ .form{
+  margin-top: 50px;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
