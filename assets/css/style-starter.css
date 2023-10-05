@@ -10,17 +10,36 @@ Author URL: http://w3layouts.com
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- nav{
-  background-color: orangered;
-  width: 100%;
+ header{
+  margin-bottom: 150px;
+ }
+ footer{
+  width:100%;
+ }
+ .map{
+  display: flex;
+ }
+ iframe{
+
+  justify-content: center;
+  border-radius: 15%;
+ }
+ .allform{
+  display: flex;
+  background-color: #292929;
+  
  }
  .form{
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  margin-left: 10%;
+ 
+
  }
- .ndform{
-  background: orangered;
+ .former{
   color: black;
+  justify-content: center;
+  color: white;
  }
  .button{
   background: orangered;
@@ -32,10 +51,35 @@ Author URL: http://w3layouts.com
  }
  .map{
   width: 500px;
-  margin-left: 30%;
+  margin-left: 40%;
  }
- .form{
-  margin-top: 50px;
+ .ndform{
+  background-color: orangered;
+  color: black;
+ }
+ .emn{
+  display: flex;
+ }
+ .int{
+  justify-content: space-between;
+ }
+ .pizza{
+  display: flex;
+ }
+ .pizz{
+  justify-content: space-between;
+ }
+ .sandwich{
+  display: flex;
+ }
+ .sandwich{
+  justify-content: space-between;
+ }
+ .burger{
+  display: flex;
+ }
+ .burg{
+  justify-content: space-between;
  }
 :root {
   --blue: #007bff;
