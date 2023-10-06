@@ -17,6 +17,10 @@ Author URL: http://w3layouts.com
  footer{
   width:100%;
  }
+ .inp{
+  width:200px;
+  color: white;
+ }
  .map{
   display: flex;
  }
