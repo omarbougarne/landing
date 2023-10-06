@@ -14,6 +14,58 @@ Author URL: http://w3layouts.com
   margin: 0;
   padding: 0;
  }
+ .el{
+  display: none;
+ }
+
+ input{
+  border-radius: 25px;
+ }
+
+
+ @media (max-width:670px) {
+  .el{
+    display: flex;
+    height:50vh;
+    width: 100%;
+    background: #292929;
+  }
+.inp{
+  margin-bottom: 100px;
+}
+.allform{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #292929;
+}
+  iframe{
+    width: 60%;
+  }
+  .sec{
+    display: flex;
+  }
+  .emn{
+    flex-direction: column;
+    align-items: center;
+  }
+  .pizza{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sandwich{
+    flex-direction: column;
+    align-items: center;
+  }
+  .burger{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+ }
  footer{
   width:100%;
  }
