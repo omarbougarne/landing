@@ -14,14 +14,16 @@ Author URL: http://w3layouts.com
   margin: 0;
   padding: 0;
  }
- .el{
+ /* .el{
   display: none;
- }
+ } */
 
  input{
   border-radius: 25px;
  }
-
+.bgg{
+  background-color: #000;
+}
 
  @media (max-width:670px) {
   .el{
@@ -66,6 +68,15 @@ Author URL: http://w3layouts.com
     flex-direction: column;
   }
  }
+ .posead{
+  position: relative;
+  right: 150px;
+ }
+ .pose{
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+ }
  footer{
   width:100%;
  }
@@ -79,22 +90,27 @@ Author URL: http://w3layouts.com
  iframe{
   justify-content: center;
   border-radius: 15%;
+  width: 700px;
  }
  .allform{
+  font-family: sans-serif;
   display: flex;
   background-color: #292929;
   padding: 100px;
  }
  .form{
+  font-family: sans-serif;
   display: flex;
   margin-left: 10%;
  }
  .former{
+  font-family: sans-serif;
   color: black;
   justify-content: center;
   color: white;
  }
  .button{
+  font-family: sans-serif;
   background: orangered;
   color: white;
  }
@@ -104,18 +120,68 @@ Author URL: http://w3layouts.com
  }
  .map{
   width: 500px;
-  margin-left: 40%;
+  margin-left: 20%;
  }
  .ndform{
-  background-color: orangered;
+  display: flex;
+  justify-content: center;
   color: black;
  }
  .emn{
   display: flex;
  }
- .int{
+  .int .int1 .int2 .int3 .int4 {
   justify-content: space-between;
+  margin-left:100px;
+ } 
+ .int4{
+  position: relative;
+  left: 350px;
  }
+.int3{
+  position: relative;
+  left: 250px;
+}
+.int2{
+  position: relative;
+  left: 150px;
+}
+.int1{
+  position: relative;
+  left: 100px;
+}
+.pizz4{
+  position: relative;
+  left: 350px;
+ }
+.pizz3{
+  position: relative;
+  left: 250px;
+}
+.pizz2{
+  position: relative;
+  left: 150px;
+}
+.pizz1{
+  position: relative;
+  left: 100px;
+}
+.burg4{
+  position: relative;
+  left: 300px;
+ }
+.burg3{
+  position: relative;
+  left: 250px;
+}
+.burg2{
+  position: relative;
+  left: 150px;
+}
+.burg1{
+  position: relative;
+  left: 100px;
+}
  .pizza{
   display: flex;
  }
